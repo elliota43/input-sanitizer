@@ -1,0 +1,19 @@
+{
+    "name": "elliota43/input-sanitizer",
+    "description": "HTTP input sanitizer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elliot Anderson",
+            "email": "ela43@drexel.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "FlexPHP\\": "src/"
+    }
+}
