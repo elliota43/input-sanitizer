@@ -10,10 +10,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "symfony/http-foundation": "^4.3@dev",
+        "symfony/http-kernel": "^4.3@dev",
+        "filp/whoops": "^2.2@dev"
+    },
     "require-dev": {},
     "autoload": {
         "psr-4": {
             "FlexPHP\\": "src/"
+        }
     }
 }
